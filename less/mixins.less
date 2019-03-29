@@ -21,7 +21,11 @@
     width: @width;
     background-color: @bgColor;
     color: @fontColor;
-      
+    &:hover {
+        background-color: @fontColor;
+        color: @bgColor;
+        border: 1px solid @bgColor;
+      } 
     
   }
   .custom-layout(@justify, @align) {
