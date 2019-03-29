@@ -194,6 +194,36 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.home form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 400px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.home form .submit-btn {
+  display: block;
+  margin: 0 10px 20px;
+  cursor: pointer;
+  height: 35px;
+  font-size: 1.6rem;
+  border-radius: 5px;
+  width: 200px;
+  background-color: #22283A;
+  color: #F6F6F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home form .submit-btn:hover {
+  background-color: #F6F6F6;
+  color: #22283A;
+  border: 1px solid #22283A;
+}
 .home .intro h2 {
   padding: 15px;
 }
