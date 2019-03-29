@@ -11,11 +11,11 @@
     align-items: center;
   }
   
-  .custom-btn(@width, @bgColor, @fontColor) {
+  .custom-btn(@width, @bgColor, @fontColor, @height) {
     display: block;
     margin: 0 10px 20px;
     cursor: pointer;
-    height: 35px;
+    height: @height;
     font-size: 1.6rem;
     border-radius: 5px;
     width: @width;

@@ -11,7 +11,11 @@
     p {
       padding:0 15px;
     }
-  
+    @media @phone{
+      img{
+        height: 125px;
+      }
+    }
   }
 
   .space-images {
@@ -77,10 +81,10 @@
       }
 
       .btn {
-        .custom-btn(100px,@btn-bg-color, @wild-sand);
+        .custom-btn(100px,@btn-bg-color, @wild-sand, 35px);
         .center();
         @media @phone{
-          .custom-btn(400px, @btn-bg-color, @wild-sand);
+          .custom-btn(460px, @btn-bg-color, @wild-sand, 75px);
           .center();
         }
       }
@@ -97,6 +101,10 @@
         width: 100%;
         height: auto;
         border-radius: 10px;
+        @media @phone{
+          height: 100%;
+          width: 460px;
+        }
       }
     }
   }
