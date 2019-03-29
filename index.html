@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SpaceWalkers</title>
 
   <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet">
@@ -19,10 +19,21 @@
  <!-- navigation code here -->
 
   <div class="container home">
+    <div class="nav">
+      <h1>SpaceWalkers</h1>
+      <nav>
+          <a href="#">Home</a>
+          <a href="#">About Us</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact</a>
+          <a href="#">Sign-in</a>
+      </nav> 
+    </div>
 
     <header class="intro">
        <!-- image code here -->
-
+       <img src="img/main-header.png" alt="Picture of the earth">
+      
       <h2>Lift Off</h2>
     
       <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
@@ -61,7 +72,17 @@
       </div>
 
     </section>
-
+    
+    <form action="#" method="post">
+        <h3>Subscribe to Spacewalkers Magazine</h3>
+        <label>First Name:</label>
+        <input type="text" class="inputs" name="firstname">
+        <label>Last Name:</label>
+        <input type="text" class="inputs" name="lastname">
+        <label>Email:</label>
+        <input type="text" class="inputs" name="email">
+        <div class="submit-btn">Subscribe</div>
+    </form>
     <footer>
       <p>Copyright SpaceWalkers 2018</p>
     </footer>
